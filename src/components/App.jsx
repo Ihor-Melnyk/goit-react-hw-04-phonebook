@@ -1,5 +1,5 @@
 import style from './App.module.scss';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import useLocalStorage from '../hooks/useLocalStorage';
 import { nanoid } from 'nanoid';
 import ContactForm from './Form';
