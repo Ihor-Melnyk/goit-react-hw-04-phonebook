@@ -14,7 +14,6 @@ export const App = () => {
     { id: 'id-4', name: 'Annie Copeland', number: '+38(073)2279126' },
   ]);
   const [filter, setFilter] = useState('');
-  const [error, setError] = useState('');
 
   const handleAddContact = (name, number) => {
     const contact = {
